@@ -1,52 +1,69 @@
 using System;
 using UnityEngine;
 
-public class Playermovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private bool isMoving = false;
-    [SerializeField] private bool up = false;
-    [SerializeField] private bool down = false;
-    [SerializeField] private bool left = false;
-    [SerializeField] private bool right = false;
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject obsWall;
-    [SerializeField] private GameObject wall;
-    [SerializeField] private GameObject wallPickUp;
-    [SerializeField] private GameObject enemy;
-    [SerializeField] private GameObject projectile;
+    public GameObject player;
+    public bool isMoving;
+    public bool up;
+    public bool down;
+    public bool left;
+    public bool right;
+    public float speed = 10;
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) && isMoving == false)
+        if (Input.GetKey(KeyCode.W))
         {
             isMoving = true;
             up = true;
         }
-        else if (Input.GetKey(KeyCode.A) && isMoving == false)
+        else if (Input.GetKey(KeyCode.A))
         {
             isMoving = true;
             left = true;
         }
-        else if (Input.GetKey(KeyCode.S) && isMoving == false)
-        {        
+        else if (Input.GetKey(KeyCode.S))
+        {
             isMoving = true;
             down = true;
         }
-        else if (Input.GetKey(KeyCode.D) && isMoving == false)
+        else if (Input.GetKey(KeyCode.D))
         {
             isMoving = true;
             right = true;
         }
-        while (isMoving && up)
+
+        var trueSpeed = speed * Time.deltaTime;
+        var position = player.transform.position;
+        if (isMoving && up)
         {
-            player.transform.Translate(Vector3.up);
+            position = new Vector3(position.x, position.y + trueSpeed, position.z);
+            player.transform.position = position;
+        }
+        else if (isMoving && down)
+        {
+            player.transform.position = new Vector3(position.x,position.y - trueSpeed, position.z);
+        }
+        else if (isMoving && left)
+        {
+            player.transform.position = new Vector3(position.x - trueSpeed,position.y, position.z);
+        }
+        else if (isMoving && right)
+        {
+            player.transform.position = new Vector3(position.x + trueSpeed,position.y - trueSpeed, position.z);
         }
     }
 
-    private void OnCollisionEnter(Collision col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag(""))
+        Debug.Log(col);
+        if (col.gameObject.CompareTag("Wall"))
         {
-            
+            isMoving = false;
+            up = false;
+            down = false;
+            left = false;
+            right = false;
         }
     }
 }
