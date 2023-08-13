@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public bool left;
     public bool right;
     public float speed = 10;
+    public GameObject wallPieceVert;
+    public GameObject wallPieceHor;
     void Update()
     {
         if (Input.GetKey(KeyCode.W))
@@ -37,8 +40,7 @@ public class PlayerMovement : MonoBehaviour
         var position = player.transform.position;
         if (isMoving && up)
         {
-            position = new Vector3(position.x, position.y + trueSpeed, position.z);
-            player.transform.position = position;
+            player.transform.position = new Vector3(position.x,position.y + trueSpeed, position.z);
         }
         else if (isMoving && down)
         {
@@ -50,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (isMoving && right)
         {
-            player.transform.position = new Vector3(position.x + trueSpeed,position.y - trueSpeed, position.z);
+            player.transform.position = new Vector3(position.x + trueSpeed,position.y, position.z);
         }
     }
 
@@ -64,6 +66,31 @@ public class PlayerMovement : MonoBehaviour
             down = false;
             left = false;
             right = false;
+        }
+        else if (col.gameObject.CompareTag("ObsWall") || col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Projectile"))
+        {
+            isMoving = false;
+            up = false;
+            down = false;
+            left = false;
+            right = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("WallPieceVert"))
+        {
+            Debug.Log(col);
+            // add vert to the next pos in the game object array for positions of the wall pieces
+            // to do this i need a prefab i can clone
+        }
+        else if (col.CompareTag("WallPieceHor"))
+        {
+            Debug.Log(col);
+            // add vert to the next pos in the game object array for positions of the wall pieces
+            // to do this i need a prefab i can clone
         }
     }
 }

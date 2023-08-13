@@ -7,8 +7,9 @@ TagManager:
   - Enemy
   - Wall
   - ObsWall
-  - WallPiece
   - Projectile
+  - WallPieceVert
+  - WallPieceHor
   layers:
   - Default
   - TransparentFX
