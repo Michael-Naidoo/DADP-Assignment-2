@@ -11,8 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public bool left;
     public bool right;
     public float speed = 10;
-    public GameObject wallPieceVert;
-    public GameObject wallPieceHor;
+    public GameObject wallPiece;
     void Update()
     {
         if (Input.GetKey(KeyCode.W))
@@ -67,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
             left = false;
             right = false;
         }
-        else if (col.gameObject.CompareTag("ObsWall") || col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Projectile"))
+        else if (col.gameObject.CompareTag("ObsWall") || col.gameObject.CompareTag("Enemy") || col.gameObject.CompareTag("Projectile") || col.gameObject.CompareTag("PitFall"))
         {
             isMoving = false;
             up = false;
@@ -80,17 +79,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("WallPieceVert"))
-        {
-            Debug.Log(col);
-            // add vert to the next pos in the game object array for positions of the wall pieces
-            // to do this i need a prefab i can clone
-        }
-        else if (col.CompareTag("WallPieceHor"))
+        if (col.CompareTag("WallPiece"))
         {
             Debug.Log(col);
             // add vert to the next pos in the game object array for positions of the wall pieces
             // to do this i need a prefab i can clone
         }
     }
+    // exit script
 }
