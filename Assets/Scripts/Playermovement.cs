@@ -79,9 +79,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("WallPiece"))
+        if (col.gameObject.GetComponent<WallPiece>())
         {
             Debug.Log(col);
+            Instantiate(wallPiece, new Vector3(8, -4, 0), Quaternion.identity);
+            col.gameObject.SetActive(false);
             // add vert to the next pos in the game object array for positions of the wall pieces
             // to do this i need a prefab i can clone
         }

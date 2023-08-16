@@ -8,8 +8,8 @@ TagManager:
   - Wall
   - ObsWall
   - Projectile
-  - WallPieceVert
-  - WallPieceHor
+  - PitFall
+  - WallPiece
   layers:
   - Default
   - TransparentFX

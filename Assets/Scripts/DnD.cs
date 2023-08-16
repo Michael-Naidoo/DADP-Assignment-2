@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class DnD : MonoBehaviour
 {
+    private bool canMave = true;
     private bool draging = false;
     private Vector3 offset;
     void Update()
@@ -17,12 +18,16 @@ public class DnD : MonoBehaviour
 
     private void OnMouseDown()
     {
-        offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        draging = true;
+        if (canMave)
+        {
+            offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            draging = true;
+        }
     }
 
     private void OnMouseUp()
     {
         draging = false;
+        canMave = false;
     }
 }
