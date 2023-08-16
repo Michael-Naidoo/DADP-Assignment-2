@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     public bool right;
     public float speed = 10;
     public GameObject wallPiece;
-    public GameObject pos;
     void Update()
     {
         if (Input.GetKey(KeyCode.W))
@@ -54,13 +53,11 @@ public class PlayerMovement : MonoBehaviour
         {
             player.transform.position = new Vector3(position.x + trueSpeed,position.y, position.z);
         }
-
-
-        
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        Debug.Log(col);
         if (col.gameObject.CompareTag("Wall"))
         {
             isMoving = false;
@@ -84,30 +81,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.GetComponent<WallPiece>())
         {
-            Debug.Log("no im fine");
-            Instantiate(wallPiece, pos.transform.position, Quaternion.identity);
+            Debug.Log(col);
+            Instantiate(wallPiece, new Vector3(8, -4, 0), Quaternion.identity);
             col.gameObject.SetActive(false);
             // add vert to the next pos in the game object array for positions of the wall pieces
             // to do this i need a prefab i can clone
-        }
-        else if (col.gameObject.CompareTag("Finish"))
-        {
-            if (SceneManager.GetActiveScene().name == "Level 1")
-            {
-                SceneManager.LoadScene("Level 2");
-            }
-            else if (SceneManager.GetActiveScene().name == "Level 2")
-            {
-                SceneManager.LoadScene("Level 3");
-            }
-            else if (SceneManager.GetActiveScene().name == "Level 3")
-            {
-                SceneManager.LoadScene("Level 4");
-            }
-            else if (SceneManager.GetActiveScene().name == "Level 4")
-            {
-                SceneManager.LoadScene("Level 2");
-            }
         }
     }
     // exit script
