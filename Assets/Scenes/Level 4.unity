@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 72729582}
   - component: {fileID: 72729583}
-  - component: {fileID: 72729585}
   - component: {fileID: 72729584}
   m_Layer: 0
   m_Name: Spikewall (7)
@@ -230,32 +229,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &72729585
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 72729581}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &76334198
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +239,6 @@ GameObject:
   m_Component:
   - component: {fileID: 76334199}
   - component: {fileID: 76334200}
-  - component: {fileID: 76334202}
   - component: {fileID: 76334201}
   m_Layer: 0
   m_Name: Spikewall (14)
@@ -363,32 +335,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &76334202
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76334198}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &167326594
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +345,6 @@ GameObject:
   m_Component:
   - component: {fileID: 167326595}
   - component: {fileID: 167326596}
-  - component: {fileID: 167326598}
   - component: {fileID: 167326597}
   m_Layer: 0
   m_Name: Spikewall (5)
@@ -496,32 +441,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &167326598
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167326594}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &178055431
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +451,6 @@ GameObject:
   m_Component:
   - component: {fileID: 178055432}
   - component: {fileID: 178055433}
-  - component: {fileID: 178055435}
   - component: {fileID: 178055434}
   m_Layer: 0
   m_Name: Spikewall (13)
@@ -629,32 +547,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &178055435
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178055431}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &279676042
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +559,7 @@ GameObject:
   - component: {fileID: 279676043}
   - component: {fileID: 279676046}
   - component: {fileID: 279676045}
+  - component: {fileID: 279676047}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -756,7 +649,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -788,6 +681,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.31, y: 4.28}
   m_EdgeRadius: 0
+--- !u!114 &279676047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279676042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576ea87e7472a4143b1e6cc9f372cb16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 279676042}
+  isMoving: 0
+  up: 0
+  down: 0
+  left: 0
+  right: 0
+  speed: 10
+  wallPiece: {fileID: 7129152920593472669, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+  pos: {fileID: 390409160}
 --- !u!1 &297021138
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +716,7 @@ GameObject:
   - component: {fileID: 297021141}
   m_Layer: 0
   m_Name: WALL (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +845,6 @@ GameObject:
   m_Component:
   - component: {fileID: 300746178}
   - component: {fileID: 300746179}
-  - component: {fileID: 300746181}
   - component: {fileID: 300746180}
   m_Layer: 0
   m_Name: Spikewall (8)
@@ -1028,32 +941,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &300746181
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300746177}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &375529763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +987,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &390409160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 390409161}
+  m_Layer: 0
+  m_Name: pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &390409161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390409160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.81, y: 2.97, z: -0.024398811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423775341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1029,7 @@ GameObject:
   - component: {fileID: 423775343}
   - component: {fileID: 423775342}
   - component: {fileID: 423775344}
+  - component: {fileID: 423775345}
   m_Layer: 0
   m_Name: Movable wall 1
   m_TagString: Untagged
@@ -1211,6 +1130,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.03, y: 2.31}
   m_EdgeRadius: 0
+--- !u!114 &423775345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423775341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0015c4271dba53544a7f8bc0d84d599c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &430656734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1262,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 13.020272, y: -0.5314388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1342,7 +1273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 23.851904, y: 5.0743666}
   m_EdgeRadius: 0
 --- !u!1 &437342183
 GameObject:
@@ -1354,7 +1285,6 @@ GameObject:
   m_Component:
   - component: {fileID: 437342184}
   - component: {fileID: 437342185}
-  - component: {fileID: 437342187}
   - component: {fileID: 437342186}
   m_Layer: 0
   m_Name: Spikewall (8)
@@ -1451,32 +1381,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &437342187
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 437342183}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &461476822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,7 +1429,6 @@ GameObject:
   m_Component:
   - component: {fileID: 467661567}
   - component: {fileID: 467661568}
-  - component: {fileID: 467661570}
   - component: {fileID: 467661569}
   m_Layer: 0
   m_Name: Spikewall (4)
@@ -1622,32 +1525,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &467661570
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467661566}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &484249964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,7 +1539,7 @@ GameObject:
   - component: {fileID: 484249967}
   m_Layer: 0
   m_Name: WALL (20)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1791,7 +1668,6 @@ GameObject:
   m_Component:
   - component: {fileID: 489424469}
   - component: {fileID: 489424470}
-  - component: {fileID: 489424472}
   - component: {fileID: 489424471}
   m_Layer: 0
   m_Name: Spikewall (6)
@@ -1888,32 +1764,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &489424472
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489424468}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &496747370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1778,7 @@ GameObject:
   - component: {fileID: 496747373}
   m_Layer: 0
   m_Name: Spikewall (1)
-  m_TagString: Untagged
+  m_TagString: ObsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2008,7 +1858,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496747370}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2020,7 +1870,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 3
 --- !u!61 &496747374
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2034,7 +1884,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 14.39902, y: 0.0886085}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2045,7 +1895,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 24.544893, y: 3.7216911}
   m_EdgeRadius: 0
 --- !u!1 &498080854
 GameObject:
@@ -2057,7 +1907,6 @@ GameObject:
   m_Component:
   - component: {fileID: 498080855}
   - component: {fileID: 498080856}
-  - component: {fileID: 498080858}
   - component: {fileID: 498080857}
   m_Layer: 0
   m_Name: Spikewall (2)
@@ -2154,32 +2003,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &498080858
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 498080854}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &519665312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2013,6 @@ GameObject:
   m_Component:
   - component: {fileID: 519665313}
   - component: {fileID: 519665314}
-  - component: {fileID: 519665316}
   - component: {fileID: 519665315}
   m_Layer: 0
   m_Name: Spikewall (7)
@@ -2287,165 +2109,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &519665316
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519665312}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
---- !u!1 &541746612
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 541746614}
-  - component: {fileID: 541746613}
-  - component: {fileID: 541746616}
-  - component: {fileID: 541746615}
-  m_Layer: 0
-  m_Name: WALL (16)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &541746613
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541746612}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2599685803927034676, guid: bd3c8e2233287e646a9e09f5c5b2fef5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.9, y: 4.08}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &541746614
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541746612}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 5.44, y: 2.3, z: 0}
-  m_LocalScale: {x: 0.17199212, y: 0.1828734, z: 0.37815014}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!61 &541746615
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541746612}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.9, y: 4.08}
-    newSize: {x: 3.9, y: 4.08}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.9, y: 4.08}
-  m_EdgeRadius: 0
---- !u!50 &541746616
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 541746612}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &604394071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,7 +2119,6 @@ GameObject:
   m_Component:
   - component: {fileID: 604394072}
   - component: {fileID: 604394073}
-  - component: {fileID: 604394075}
   - component: {fileID: 604394074}
   m_Layer: 0
   m_Name: Spikewall (10)
@@ -2553,32 +2215,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &604394075
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604394071}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &620793594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,9 +2226,10 @@ GameObject:
   - component: {fileID: 620793596}
   - component: {fileID: 620793595}
   - component: {fileID: 620793597}
+  - component: {fileID: 620793598}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2685,6 +2322,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &620793598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620793594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f7135a5c72426ea3d3b71b458aa859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1
+  projectile: {fileID: 3630494445730259534, guid: 1259d3056a96eaa45a66d04b5bece204, type: 3}
+  direction: 0
 --- !u!1 &662200064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,7 +2393,6 @@ GameObject:
   m_Component:
   - component: {fileID: 693194946}
   - component: {fileID: 693194947}
-  - component: {fileID: 693194949}
   - component: {fileID: 693194948}
   m_Layer: 0
   m_Name: Spikewall (2)
@@ -2838,32 +2489,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &693194949
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693194945}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &735169435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +2503,7 @@ GameObject:
   - component: {fileID: 735169438}
   m_Layer: 0
   m_Name: WALL (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3007,7 +2632,6 @@ GameObject:
   m_Component:
   - component: {fileID: 740975501}
   - component: {fileID: 740975502}
-  - component: {fileID: 740975504}
   - component: {fileID: 740975503}
   m_Layer: 0
   m_Name: Spikewall (9)
@@ -3104,32 +2728,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &740975504
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740975500}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &745518005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3140,7 +2738,6 @@ GameObject:
   m_Component:
   - component: {fileID: 745518006}
   - component: {fileID: 745518007}
-  - component: {fileID: 745518009}
   - component: {fileID: 745518008}
   m_Layer: 0
   m_Name: Spikewall (7)
@@ -3237,32 +2834,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &745518009
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745518005}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &747633214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3273,7 +2844,6 @@ GameObject:
   m_Component:
   - component: {fileID: 747633215}
   - component: {fileID: 747633216}
-  - component: {fileID: 747633218}
   - component: {fileID: 747633217}
   m_Layer: 0
   m_Name: Spikewall (4)
@@ -3370,32 +2940,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &747633218
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747633214}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &758143230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3406,7 +2950,6 @@ GameObject:
   m_Component:
   - component: {fileID: 758143231}
   - component: {fileID: 758143232}
-  - component: {fileID: 758143234}
   - component: {fileID: 758143233}
   m_Layer: 0
   m_Name: Spikewall (4)
@@ -3503,32 +3046,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &758143234
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 758143230}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &761387708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,9 +3057,10 @@ GameObject:
   - component: {fileID: 761387710}
   - component: {fileID: 761387709}
   - component: {fileID: 761387711}
+  - component: {fileID: 761387712}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3607,7 +3125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761387708}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 3.27, y: 1.63, z: 0}
+  m_LocalPosition: {x: 5.31, y: 1.63, z: 0}
   m_LocalScale: {x: 0.18340157, y: 0.18340157, z: 0.18340157}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3635,6 +3153,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &761387712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761387708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f7135a5c72426ea3d3b71b458aa859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1
+  projectile: {fileID: 3630494445730259534, guid: 1259d3056a96eaa45a66d04b5bece204, type: 3}
+  direction: 2
 --- !u!1 &842135921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,7 +3182,7 @@ GameObject:
   - component: {fileID: 842135924}
   m_Layer: 0
   m_Name: Spikewall
-  m_TagString: Untagged
+  m_TagString: ObsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3755,7 +3288,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 29.349546, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3766,7 +3299,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
+  m_Size: {x: 50.684147, y: 3.96}
   m_EdgeRadius: 0
 --- !u!1 &871490280
 GameObject:
@@ -3820,7 +3353,7 @@ GameObject:
   - component: {fileID: 882681548}
   m_Layer: 0
   m_Name: Pitfall (1)
-  m_TagString: Untagged
+  m_TagString: PitFall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3952,7 +3485,7 @@ GameObject:
   - component: {fileID: 940860110}
   m_Layer: 0
   m_Name: Exit
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4060,7 +3593,6 @@ GameObject:
   m_Component:
   - component: {fileID: 968522938}
   - component: {fileID: 968522939}
-  - component: {fileID: 968522941}
   - component: {fileID: 968522940}
   m_Layer: 0
   m_Name: Spikewall (14)
@@ -4157,32 +3689,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &968522941
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968522937}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &980277381
 GameObject:
   m_ObjectHideFlags: 0
@@ -4193,7 +3699,6 @@ GameObject:
   m_Component:
   - component: {fileID: 980277382}
   - component: {fileID: 980277383}
-  - component: {fileID: 980277385}
   - component: {fileID: 980277384}
   m_Layer: 0
   m_Name: Spikewall (6)
@@ -4290,32 +3795,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &980277385
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980277381}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &987240880
 GameObject:
   m_ObjectHideFlags: 0
@@ -4326,7 +3805,6 @@ GameObject:
   m_Component:
   - component: {fileID: 987240881}
   - component: {fileID: 987240882}
-  - component: {fileID: 987240884}
   - component: {fileID: 987240883}
   m_Layer: 0
   m_Name: Spikewall (10)
@@ -4423,32 +3901,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &987240884
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 987240880}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &989420096
 GameObject:
   m_ObjectHideFlags: 0
@@ -4463,7 +3915,7 @@ GameObject:
   - component: {fileID: 989420099}
   m_Layer: 0
   m_Name: Spikewall
-  m_TagString: Untagged
+  m_TagString: ObsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4543,7 +3995,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989420096}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4555,7 +4007,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 3
 --- !u!61 &989420100
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4569,7 +4021,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 29.34955, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4580,7 +4032,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
+  m_Size: {x: 51.21777, y: 3.96}
   m_EdgeRadius: 0
 --- !u!1 &1030754641
 GameObject:
@@ -4592,7 +4044,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1030754642}
   - component: {fileID: 1030754643}
-  - component: {fileID: 1030754645}
   - component: {fileID: 1030754644}
   m_Layer: 0
   m_Name: Spikewall (12)
@@ -4689,32 +4140,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1030754645
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030754641}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1099575413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4729,7 +4154,7 @@ GameObject:
   - component: {fileID: 1099575416}
   m_Layer: 0
   m_Name: WALL (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4858,7 +4283,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1209436218}
   - component: {fileID: 1209436219}
-  - component: {fileID: 1209436221}
   - component: {fileID: 1209436220}
   m_Layer: 0
   m_Name: Spikewall (6)
@@ -4955,32 +4379,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1209436221
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209436217}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1222436469
 GameObject:
   m_ObjectHideFlags: 0
@@ -4995,7 +4393,7 @@ GameObject:
   - component: {fileID: 1222436472}
   m_Layer: 0
   m_Name: WALL (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5124,7 +4522,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1237271298}
   - component: {fileID: 1237271299}
-  - component: {fileID: 1237271301}
   - component: {fileID: 1237271300}
   m_Layer: 0
   m_Name: Spikewall (9)
@@ -5221,32 +4618,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1237271301
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1237271297}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1239411629
 GameObject:
   m_ObjectHideFlags: 0
@@ -5257,7 +4628,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1239411630}
   - component: {fileID: 1239411631}
-  - component: {fileID: 1239411633}
   - component: {fileID: 1239411632}
   m_Layer: 0
   m_Name: Spikewall (12)
@@ -5354,32 +4724,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1239411633
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239411629}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1294359791
 GameObject:
   m_ObjectHideFlags: 0
@@ -5392,7 +4736,7 @@ GameObject:
   - component: {fileID: 1294359792}
   m_Layer: 0
   m_Name: Pitfall
-  m_TagString: Untagged
+  m_TagString: PitFall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5457,7 +4801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294359791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.87, y: -2.7, z: 0}
+  m_LocalPosition: {x: -1.87, y: -3.47, z: 0}
   m_LocalScale: {x: 0.23102, y: 0.23102, z: 0.23102}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5474,7 +4818,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1303079423}
   - component: {fileID: 1303079424}
-  - component: {fileID: 1303079426}
   - component: {fileID: 1303079425}
   m_Layer: 0
   m_Name: Spikewall (13)
@@ -5571,32 +4914,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1303079426
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303079422}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1320398988
 GameObject:
   m_ObjectHideFlags: 0
@@ -5607,7 +4924,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1320398989}
   - component: {fileID: 1320398990}
-  - component: {fileID: 1320398992}
   - component: {fileID: 1320398991}
   m_Layer: 0
   m_Name: Spikewall (11)
@@ -5704,32 +5020,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1320398992
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320398988}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1331740589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,7 +5030,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1331740590}
   - component: {fileID: 1331740591}
-  - component: {fileID: 1331740593}
   - component: {fileID: 1331740592}
   m_Layer: 0
   m_Name: Spikewall (4)
@@ -5837,32 +5126,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1331740593
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331740589}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1335256402
 GameObject:
   m_ObjectHideFlags: 0
@@ -5877,7 +5140,7 @@ GameObject:
   - component: {fileID: 1335256405}
   m_Layer: 0
   m_Name: WALL (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6006,7 +5269,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1444784463}
   - component: {fileID: 1444784464}
-  - component: {fileID: 1444784466}
   - component: {fileID: 1444784465}
   m_Layer: 0
   m_Name: Spikewall (1)
@@ -6103,32 +5365,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1444784466
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444784462}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1480944784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6143,7 +5379,7 @@ GameObject:
   - component: {fileID: 1480944787}
   m_Layer: 0
   m_Name: WALL (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6272,7 +5508,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1486215585}
   - component: {fileID: 1486215586}
-  - component: {fileID: 1486215588}
   - component: {fileID: 1486215587}
   m_Layer: 0
   m_Name: Spikewall (11)
@@ -6369,32 +5604,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1486215588
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486215584}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1567463269
 GameObject:
   m_ObjectHideFlags: 0
@@ -6406,9 +5615,10 @@ GameObject:
   - component: {fileID: 1567463271}
   - component: {fileID: 1567463270}
   - component: {fileID: 1567463272}
+  - component: {fileID: 1567463273}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6501,6 +5711,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1567463273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567463269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f7135a5c72426ea3d3b71b458aa859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 2
+  projectile: {fileID: 3630494445730259534, guid: 1259d3056a96eaa45a66d04b5bece204, type: 3}
+  direction: 3
 --- !u!1 &1572050375
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,7 +5820,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1576473630}
   - component: {fileID: 1576473631}
-  - component: {fileID: 1576473633}
   - component: {fileID: 1576473632}
   m_Layer: 0
   m_Name: Spikewall (6)
@@ -6692,32 +5916,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1576473633
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576473629}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1604238798
 GameObject:
   m_ObjectHideFlags: 0
@@ -6728,7 +5926,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1604238799}
   - component: {fileID: 1604238800}
-  - component: {fileID: 1604238802}
   - component: {fileID: 1604238801}
   m_Layer: 0
   m_Name: Spikewall (5)
@@ -6825,32 +6022,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1604238802
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604238798}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1616099502
 GameObject:
   m_ObjectHideFlags: 0
@@ -6861,7 +6032,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1616099503}
   - component: {fileID: 1616099504}
-  - component: {fileID: 1616099506}
   - component: {fileID: 1616099505}
   m_Layer: 0
   m_Name: Spikewall (3)
@@ -6958,32 +6128,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1616099506
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616099502}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1630362601
 GameObject:
   m_ObjectHideFlags: 0
@@ -6994,7 +6138,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1630362602}
   - component: {fileID: 1630362603}
-  - component: {fileID: 1630362605}
   - component: {fileID: 1630362604}
   m_Layer: 0
   m_Name: Spikewall (5)
@@ -7091,32 +6234,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1630362605
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630362601}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1650794622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,7 +6244,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1650794623}
   - component: {fileID: 1650794624}
-  - component: {fileID: 1650794626}
   - component: {fileID: 1650794625}
   m_Layer: 0
   m_Name: Spikewall (5)
@@ -7224,32 +6340,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1650794626
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650794622}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1650909592
 GameObject:
   m_ObjectHideFlags: 0
@@ -7264,7 +6354,7 @@ GameObject:
   - component: {fileID: 1650909595}
   m_Layer: 0
   m_Name: WALL (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7394,6 +6484,7 @@ GameObject:
   - component: {fileID: 1691117956}
   - component: {fileID: 1691117955}
   - component: {fileID: 1691117957}
+  - component: {fileID: 1691117958}
   m_Layer: 0
   m_Name: Movable wall 2 (1)
   m_TagString: Untagged
@@ -7494,6 +6585,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.03, y: 2.31}
   m_EdgeRadius: 0
+--- !u!114 &1691117958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691117954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0015c4271dba53544a7f8bc0d84d599c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1694521095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,7 +6607,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1694521096}
   - component: {fileID: 1694521097}
-  - component: {fileID: 1694521099}
   - component: {fileID: 1694521098}
   m_Layer: 0
   m_Name: Spikewall (3)
@@ -7601,32 +6703,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1694521099
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1694521095}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &1740867205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7637,7 +6713,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1740867206}
   - component: {fileID: 1740867207}
-  - component: {fileID: 1740867209}
   - component: {fileID: 1740867208}
   m_Layer: 0
   m_Name: Spikewall (7)
@@ -7734,32 +6809,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1740867209
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740867205}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1777599306
 GameObject:
   m_ObjectHideFlags: 0
@@ -7770,7 +6819,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1777599307}
   - component: {fileID: 1777599308}
-  - component: {fileID: 1777599310}
   - component: {fileID: 1777599309}
   m_Layer: 0
   m_Name: Spikewall (1)
@@ -7867,32 +6915,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1777599310
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777599306}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &1913453974
 GameObject:
   m_ObjectHideFlags: 0
@@ -7904,6 +6926,7 @@ GameObject:
   - component: {fileID: 1913453976}
   - component: {fileID: 1913453975}
   - component: {fileID: 1913453977}
+  - component: {fileID: 1913453978}
   m_Layer: 0
   m_Name: Movable wall 2
   m_TagString: Untagged
@@ -7971,7 +6994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913453974}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.42, y: -0.14, z: 0}
+  m_LocalPosition: {x: 2.76, y: -0.14, z: 0}
   m_LocalScale: {x: 0.19359723, y: 0.20557396, z: 0.31768498}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8004,6 +7027,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.03, y: 2.31}
   m_EdgeRadius: 0
+--- !u!114 &1913453978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913453974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0015c4271dba53544a7f8bc0d84d599c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2015983502
 GameObject:
   m_ObjectHideFlags: 0
@@ -8014,7 +7049,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2015983503}
   - component: {fileID: 2015983504}
-  - component: {fileID: 2015983506}
   - component: {fileID: 2015983505}
   m_Layer: 0
   m_Name: Spikewall (3)
@@ -8111,32 +7145,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2015983506
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015983502}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &2031104183
 GameObject:
   m_ObjectHideFlags: 0
@@ -8151,7 +7159,7 @@ GameObject:
   - component: {fileID: 2031104186}
   m_Layer: 0
   m_Name: WALL (22)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8280,7 +7288,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2032582381}
   - component: {fileID: 2032582382}
-  - component: {fileID: 2032582384}
   - component: {fileID: 2032582383}
   m_Layer: 0
   m_Name: Spikewall (8)
@@ -8377,32 +7384,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2032582384
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2032582380}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_EdgeRadius: 0
 --- !u!1 &2108429825
 GameObject:
   m_ObjectHideFlags: 0
@@ -8413,7 +7394,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2108429826}
   - component: {fileID: 2108429827}
-  - component: {fileID: 2108429829}
   - component: {fileID: 2108429828}
   m_Layer: 0
   m_Name: Spikewall (3)
@@ -8510,32 +7490,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2108429829
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108429825}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
 --- !u!1 &2139839256
 GameObject:
   m_ObjectHideFlags: 0
@@ -8546,7 +7500,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2139839257}
   - component: {fileID: 2139839258}
-  - component: {fileID: 2139839260}
   - component: {fileID: 2139839259}
   m_Layer: 0
   m_Name: Spikewall (8)
@@ -8643,29 +7596,64 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &2139839260
-BoxCollider2D:
+--- !u!1001 &7129152920052037929
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139839256}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.97, y: 3.96}
-    newSize: {x: 4.97, y: 3.96}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.97, y: 3.96}
-  m_EdgeRadius: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7129152920593472669, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_Name
+      value: WALL (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472669, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129152920593472671, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57517a5a9c92103428a65cda918d61b4, type: 3}
