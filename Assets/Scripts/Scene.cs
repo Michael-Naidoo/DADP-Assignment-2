@@ -9,4 +9,9 @@ public class Scene : MonoBehaviour
    {
       SceneManager.LoadScene("Level 1");
    }
+
+   public void LoadScene()
+   {
+      SceneManager.LoadScene("Start Scene");
+   }
 }
