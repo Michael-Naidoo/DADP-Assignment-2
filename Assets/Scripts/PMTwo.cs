@@ -82,8 +82,8 @@ public class PMTwo : MonoBehaviour
     {
         if (col.gameObject.GetComponent<WallPiece>())
         {
-            Debug.Log(col);
-            Instantiate(wallPiece, pos.transform.position, Quaternion.identity);
+            Debug.Log("yes i work!!!");
+            Instantiate(wallPiece, pos.gameObject.transform.position, Quaternion.identity);
             col.gameObject.SetActive(false);
             // add vert to the next pos in the game object array for positions of the wall pieces
             // to do this i need a prefab i can clone

@@ -32,6 +32,7 @@ namespace DefaultNamespace
 
         private void OnCollisionEnter2D(Collision2D col)
         {
+            Debug.Log(col.gameObject.name);
             Destroy(gameObject);
         }
     }

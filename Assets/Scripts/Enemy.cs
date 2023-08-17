@@ -5,7 +5,8 @@ namespace DefaultNamespace
 {
     public class Enemy : MonoBehaviour
     {
-        private float timer = 5;
+        public float timer = 5;
+        public float timerT = 5;
         public GameObject projectile;
         public enum projectileDirection
         {
@@ -22,9 +23,8 @@ namespace DefaultNamespace
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
-                timer = 10;
+                timer = timerT;
                 var go = Instantiate(projectile, transform.position, Quaternion.identity);
-                Instantiate(go);
                 if (direction == projectileDirection.down)
                 {
                     go.GetComponent<Projectile>().direction = "down";
